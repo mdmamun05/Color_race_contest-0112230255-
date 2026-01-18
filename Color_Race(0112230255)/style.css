@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* display: flex; */
+    max-width: 100%;
+}
+
+.nav_bar{
+    display: flex;
+    background-color: orange;
+}
+
+ #Title {
+    margin: auto;
+}
+
+.portal_box {
+    display: flex;
+    margin-right: 14px;
+} 
+
+button{
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+li {
+    text-align: right;
+}
+
+.Section {
+    /* display: flex; */
+
+}
+
+#sec_width{
+    /* height: 500px; */
+    /* height: 500px; */
+    margin: 10px;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.point{
+    background-color: azure;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+h4{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+p{
+    font-family: cursive;
+}
+
+
+.notice{
+    background-color: aquamarine;
+
+}
+
+.Notice{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-style: italic;
+    text-decoration: dotted;
+}
+
+.nt{
+    font-size: 20px;
+    font-style: italic;
+}
+
+        /* footer design */
+
+footer{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: darkgray;
+}
+
+
+
