@@ -1,0 +1,157 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* --- Top Navigation Bar --- */
+.nav_bar {
+    background-color: #f26522; /* UIU Orange Theme */
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.portal_box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.portal_box p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.portal_box button {
+    background-color: #fff;
+    color: #f26522;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.portal_box button:hover {
+    background-color: #e0e0e0;
+}
+
+/* --- Main Layout Container --- */
+/* Sidebar ebong Section ke pashapashi rakhar jonno */
+.main_wrapper {
+    display: flex;
+    flex: 1;
+}
+
+/* --- Sidebar Navigation --- */
+.sideBar_navigation {
+    width: 200px;
+    background-color: #2c3e50;
+    padding-top: 20px;
+    min-height: 100vh;
+}
+
+.sideBar_navigation ul {
+    list-style: none;
+}
+
+.sideBar_navigation ul li {
+    padding: 15px 20px;
+}
+
+.sideBar_navigation ul li a {
+    color: #bdc3c7;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.sideBar_navigation ul li a:hover {
+    color: white;
+    padding-left: 10px;
+}
+
+/* --- Dashboard Sections Grid --- */
+.Section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 25px;
+    flex: 1;
+}
+
+#sec_width {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-top: 4px solid #f26522;
+}
+
+#sec_width h4 {
+    margin-bottom: 15px;
+    color: #f26522;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.point p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* --- Notice Board --- */
+.notice {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    border-radius: 4px;
+}
+
+.Notice {
+    color: #856404;
+    margin-bottom: 10px;
+}
+
+.nt {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #533f03;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: auto;
+}
+
+footer h5 {
+    letter-spacing: 1px;
+}
+
+footer p {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-top: 5px;
+}
