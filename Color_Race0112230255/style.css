@@ -47,6 +47,10 @@ body {
     transition: 0.3s;
 }
 
+/* #menuBtn {
+    display: none;
+} */
+
 .portal_box button:hover {
     background-color: #e0e0e0;
 }
@@ -64,7 +68,20 @@ body {
     background-color: #2c3e50;
     padding-top: 20px;
     min-height: 100vh;
+    margin-left: auto;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.3);
 }
+
+.sideBar_navigation.active{
+    display: block;
+}
+
+
 
 .sideBar_navigation ul {
     list-style: none;
@@ -154,4 +171,15 @@ footer p {
     font-size: 12px;
     opacity: 0.7;
     margin-top: 5px;
+} 
+
+/* @media (max-width: 500px){
+    #menuBtn {
+    display: inline;
+    }
+
+    .sideBar_navigation{
+    display: none;
 }
+
+} */
